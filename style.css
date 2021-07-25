@@ -532,6 +532,15 @@ p {
 }
 /* End Footer */
 
+/* Switck dark and light mode */
+.switchLight {
+position: absolute;
+width:30px;
+heiht:30px;
+background: #333;
+}
+/* End Switch */
+
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
