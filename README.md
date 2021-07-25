@@ -3,8 +3,8 @@
 
 
 This project is for html &amp; css practice. We made this for youtube tutorial purpose.
-<b>coded by [Shaif Arfan](https://github.com/shaifarfan)</b>
+<b>coded by [DrkBot](https://github.com/botpage/first)</b>
 ### 👍 HAVE FUN 👍
-Thanks, Arfan
+Thanks, Ian Vanh
 
 ![Watch Now](./img/Design.jpg)
