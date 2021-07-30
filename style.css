@@ -501,7 +501,7 @@ p {
 /*End contact Section */
 
 /* Button Up */
-#button-up{
+.button-up{
     width: 60px;
     height: 60px;
     background: #46a2fd;
@@ -520,7 +520,7 @@ p {
     transform: scale(0);
 }
 
-#button-up:hover{
+.button-up:hover{
     transform: scale(1.1);
     border-color: rgba(0,0,0,0.1);
 }
