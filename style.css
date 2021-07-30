@@ -518,13 +518,12 @@ p {
     transform: scale(0);
     width: 40px;
     height: 40px;
+    background: #46a2fd;
 }
 .button-up{
-    background: #46a2fd;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
 }
 
 #btn-up:hover{
