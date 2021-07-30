@@ -31,6 +31,6 @@ var myButton = document.getElementById("btn-up");
             if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
                 myButton.style.transform = "scale(1)";
             } else {
-                myButton.style.transform = "scale(0)";
+                myButton.style.display = "none";
             }
         }
