@@ -505,9 +505,7 @@ p {
     display: none;
     z-index: 999;
     animation: btn_puls 1s ease infinite;
-    color: white;
-    border-radius: 50%;
-    font-size: 20px;
+    border-radius: 50%;  
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -522,6 +520,10 @@ p {
 }
 #btn-up a {
  width:auto;
+ color: white;
+ font-size: 20px;
+ text-decoration:none;
+ padding: 20px;
 }
 
 #btn-up:hover{
