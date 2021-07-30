@@ -28,7 +28,7 @@ menu_item.forEach((item) => {
 var myButton = document.getElementById("btn-up");
         window.onscroll = function () { scrollFunction() };
         function scrollFunction() {
-            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 100) {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
                 myButton.style.transform = "scale(1)";
             } else {
                 myButton.style.transform = "scale(0)";
