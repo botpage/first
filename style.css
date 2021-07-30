@@ -501,13 +501,10 @@ p {
 /*End contact Section */
 
 /* Button Up */
-.button-up{
-    width: 40px;
-    height: 40px;
-    background: #46a2fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#btn-up{
+    display:none;
+    z-index: 999;
+    animation: btn_puls 1s ease infinite;
     color: white;
     border-radius: 50%;
     font-size: 20px;
@@ -519,11 +516,17 @@ p {
     border: 2px solid crimson;
     transition: all 150ms ease;
     transform: scale(0);
-    animation: btn_puls 1s ease infinite;
-    z-index: 999;
+    width: 40px;
+    height: 40px;
+}
+.button-up{
+    background: #46a2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-up:hover{
+#btn-up:hover{
     transform: scale(1.1);
 }
 /* End Button Up */
