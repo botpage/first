@@ -521,9 +521,7 @@ p {
     background: #46a2fd;
 }
 .button-up{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    heihgt:auto;
 }
 
 #btn-up:hover{
