@@ -581,7 +581,7 @@ p {
 }
 @keyframes btn_puls {
 	0% {
-		opacity: 0;
+		opacity: 1;
 		transform: scale(0);
 	}
 	100% {
