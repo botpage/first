@@ -522,7 +522,9 @@ p {
  color: white;
  font-size: 20px;
  text-decoration:none;
- text-align: justify;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 #btn-up:hover{
