@@ -502,7 +502,7 @@ p {
 
 /* Button Up */
 #btn-up{
-    display:none;
+    display: none;
     z-index: 999;
     animation: btn_puls 1s ease infinite;
     color: white;
@@ -524,6 +524,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 #btn-up:hover{
