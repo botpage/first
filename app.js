@@ -26,7 +26,7 @@ menu_item.forEach((item) => {
 
 
 ///
-buttonUp = document.getElementById("button-up");
+buttonUp = document.getElementById("btn-up");
 window.onscroll = function(){
 
     var scroll = document.documentElement.scrollTop;
