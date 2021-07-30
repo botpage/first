@@ -25,16 +25,12 @@ menu_item.forEach((item) => {
 });
 
 
-///
-buttonUp = document.getElementById("btn-up");
-window.onscroll = function(){
-
-    var scroll = document.documentElement.scrollTop;
-
-    if (scroll > 500){
-        buttonUp.style.transform = "scale(1)";
-    }else if(scroll < 500){
-        buttonUp.style.transform = "scale(0)";
-    }
-
-}
+var myButton = document.getElementById("btn-up");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                myButton.style.transform = "scale(1)";
+            } else {
+                myButton.style.transform = "scale(0)";
+            }
+        }
