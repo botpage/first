@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
-	if (scroll_position > 100) {
+	if (scroll_position > 250) {
 		header.style.backgroundColor = '#29323c';
 	} else {
 		header.style.backgroundColor = 'transparent';
@@ -28,7 +28,7 @@ menu_item.forEach((item) => {
 var myButton = document.getElementById("btn-up");
         window.onscroll = function () { scrollFunction() };
         function scrollFunction() {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 100) {
                 myButton.style.transform = "scale(1)";
             } else {
                 myButton.style.transform = "scale(0)";
