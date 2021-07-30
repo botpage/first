@@ -519,9 +519,9 @@ p {
     width: 40px;
     height: 40px;
     background: #46a2fd;
-}
-.button-up{
-    heihgt:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #btn-up:hover{
